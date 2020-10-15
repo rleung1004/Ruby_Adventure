@@ -12875,6 +12875,31 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2222460488294542308, guid: aeefc122e5325964ea6ed09ec8727b78,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222460488294542308, guid: aeefc122e5325964ea6ed09ec8727b78,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222460488294542308, guid: aeefc122e5325964ea6ed09ec8727b78,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222460488294542308, guid: aeefc122e5325964ea6ed09ec8727b78,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123891978187513368, guid: aeefc122e5325964ea6ed09ec8727b78,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5137570450635783456, guid: aeefc122e5325964ea6ed09ec8727b78,
         type: 3}
       propertyPath: m_Name
