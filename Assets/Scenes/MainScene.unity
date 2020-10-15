@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 99440810}
   - component: {fileID: 99440809}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CameraConfiner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -931,7 +931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
-  m_BoundingShape2D: {fileID: 0}
+  m_BoundingShape2D: {fileID: 99440809}
   m_ConfineScreenEdges: 1
   m_Damping: 0
 --- !u!1001 &1582016967
