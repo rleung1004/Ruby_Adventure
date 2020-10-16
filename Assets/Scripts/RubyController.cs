@@ -6,9 +6,9 @@ public class RubyController : MonoBehaviour
 {
     public float SPEED = 3.0f;
 
-    public GameObject projectilePrefab;
-
     public int MAX_HEALTH = 5;
+
+    public GameObject projectilePrefab;
 
     public int health { get { return currentHealth; } }
     int currentHealth;
@@ -31,7 +31,6 @@ public class RubyController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         currentHealth = MAX_HEALTH;
-        
     }
 
     // Update is called once per frame
@@ -79,6 +78,7 @@ public class RubyController : MonoBehaviour
         if (amount < 0)
         {
             animator.SetTrigger("Hit");
+
             if (isInvincible)
                 return;
 
@@ -87,7 +87,8 @@ public class RubyController : MonoBehaviour
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, MAX_HEALTH);
-        Debug.Log(currentHealth + "/" + MAX_HEALTH);
+
+        UIHealthBar.instance.SetValue(currentHealth / (float)MAX_HEALTH);
     }
 
     void Launch()
