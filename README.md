@@ -4,6 +4,8 @@ This game was made with the guidance of of this tutorial:
 
 https://learn.unity.com/project/ruby-s-2d-rpg?uv=2019.2
 
+This game only supports PC/MAC.
+
 ## Installation Instructions
 
 1. Clone this repository.
